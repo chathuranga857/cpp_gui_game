@@ -1,0 +1,73 @@
+Implemented by:
+
+Student Information;
+ * Name: Chathuranga De Sivla (Manikkuge De Silva)
+ * Student number: 150963990
+ * UserID: vvmade
+ * E-Mail: manikkuge.desilva@tuni.fi
+
+
+----------------- Instructions to play the game ----------------------
+
+Rules in breif:
+
+ * There are two colors for game peices. In this case, green and red
+
+ * Initially all green pieces are at top row and red pieces are at the bottom row
+
+ * Goal is to move all the green pieces to bottom row and red peices to top row. This can be achieved with minimum of 31 moves
+
+ * Moving a game piece over another is not permitted. However, it can be moved along a path of empty spaces, and the move can be as long as such a path exists. App prevents illegal moves, and indicate them to user.
+
+
+How to play the game:
+
+1. Run the program
+
+ - Game board GUI will be shown with game pieces at their initial location.
+
+ - Elapsed timer will be started and show the time in mm:ss format
+
+ - Moves counter is started with number 0
+
+
+2. Select a game piece to move (either Green or Red)
+
+ - Color will become darker in the selected piece
+
+ - If you click on another game piece, that will deselect the current selection and will select the new piece. This continues until an empty slot is selected
+
+
+3. Select an empty slot to move the seleted piece
+
+ - When an empty slot is selected after having selected a game piece, piece will move to the selected empty slot, if it is a legal move
+
+ - If it is not a legal move, piece will get deselected and move will not happpen. In this case, a new selection to be made in order to make a move
+
+ - Each successful move will increase the number of moves by one in the counter
+
+ - Selecting an empty slot without having selected a game piece will not make any change (will be ignored)
+
+
+4. Click "Reset Game" button to reset the game
+
+ - This will restore the game board to initial position, and also reset the timer and the moves counter to zero
+
+
+
+Additional Features:
+
+5. Click "Pause Game" button to pause the game
+
+ - This will pause the elapsed time, and will disable all the game piece clicks
+
+
+6. Click "Resume Game" to resume the game
+
+ - This will start the timer from where it stopped, and enable the game again
+
+
+7. If you win the game with minimum number of moves (31), then the game board will change the color and congrates you. This will be reset to original once "Reset Game" is clicked
+
+
+Additionally, text under "Info:" will display the relevant notifications.
